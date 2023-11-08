@@ -1,4 +1,7 @@
-void main ()
+void main (List<String> args)
 {
-	print("Hello mr.bac");
+	int myNum = int.parse(args[0]);
+	if(myNum%2 == 0)
+		print("$myNum  четное");
+	else print("$myNum не четное");
 }
